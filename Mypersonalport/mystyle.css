@@ -1,0 +1,98 @@
+
+body
+{
+    color: #443850;
+}
+
+header img
+{
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: dashed;
+    border-color: #8e5572;
+}
+header
+{
+    
+    background-color: #bcaa99;
+    display:flex;
+    width: 100%;
+    align-items:center;
+    position:sticky;
+    top: 0;
+    left: 0;
+    
+}
+.hnav ul li
+{
+    align-self: self-end;
+    padding: 5px;
+    display: inline;
+    list-style-type: none;
+    background-color: #bbbe64;
+    border-radius: 3px;
+    border-style: dashed ;
+    text-align: center;
+    margin: 8px;
+    
+}
+
+nav
+{
+    margin-left: 650px;
+}
+
+
+ul li a
+{
+    text-decoration: none;
+    display: inline;
+}
+
+nav li a
+{
+   padding: 20px;
+   height: 80px;
+}
+
+header h2
+{
+    font-weight:100;
+    font-size: 100px;
+    font-family: "UnifrakturMaguntia", cursive;
+    color: #bbbe64;
+    font-size: 30px;
+    -webkit-text-stroke:  1.2px #443850;
+    letter-spacing: -1.8px;
+}
+
+
+
+
+footer
+{
+    background-color: #bcaa99;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 80px;
+    justify-content: space-around;
+}
+
+.Contact
+{
+    margin-left: 200px;
+    margin-right: 100px;
+    align-content: center;
+    display:grid;
+
+}
+
+.adds
+{
+    right: 200px;
+}
+.adds ul li
+{
+    list-style-type: none;
+}
